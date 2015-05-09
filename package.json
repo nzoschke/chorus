@@ -1,0 +1,17 @@
+{
+  "name": "chorus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "chorus.js",
+  "dependencies": {
+    "firebase": "^2.2.4",
+    "request": "^2.55.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node chorus.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
