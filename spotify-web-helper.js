@@ -277,12 +277,12 @@ function SpotifyWebHelper(opts) {
       spotifyJsonRequest(this, '/remote/pause.json', params, cb);
     }
 
-    this.play = function (spotifyUri, cb) {
+    this.play = function (spotifyUri, contextUri, cb) {
       cb = cb || function () { };
 
       params = {
         'uri': spotifyUri,
-        'context': spotifyUri
+        'context': contextUri
      }
 
       spotifyJsonRequest(this, '/remote/play.json', params, cb);
