@@ -1,10 +1,15 @@
 # Chorus
 
-Set FIREBASE_URL=... in .env
+Pre-reqs
+
+```bash
+$ npm install
+$ echo FIREBASE_URL=... > .env
+```
 
 One person leads:
 
-  `foreman run npm start -- lead spotify:user:nzoschke:playlist:0vxHjlpYHKwOzRpdm5liPb`
+  `foreman run npm start -- lead spotify:user:nzoschke:playlist:1iduvIZCLFAfbn7nO7XY7i`
 
 Many people follow:
 
